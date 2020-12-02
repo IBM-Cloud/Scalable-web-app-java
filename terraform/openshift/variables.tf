@@ -42,7 +42,7 @@ variable "public_vlan_num" {
   description = "Number for public VLAN from `ibmcloud ks vlans --zone <ZONE>`"
 }
 
-variable kube_version {
+variable "kube_version" {
   default     = "4.5.18_openshift"
   description = "Version of Kubernetes to apply to the new OpenShift cluster"
 }
