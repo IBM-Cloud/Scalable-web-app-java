@@ -32,7 +32,7 @@ module "ibm-kubernetes-toolchain" {
   ibmcloud_api_key  = var.ibmcloud_api_key
   region            = "us-south"
   toolchain_name    = "terraform-toolchain-node-${random_string.random.result}"
-  application_repo  = "https://github.com/IBM-Cloud/Scalable-web-app-node"
+  application_repo  = "https://github.com/IBM-Cloud/Scalable-web-app-java"
   resource_group    = var.resource_group
   cluster_name      = ibm_container_cluster.cluster.name
   cluster_namespace = var.cluster_namespace
