@@ -32,7 +32,7 @@ In Step 1, the first two buttons use the [simple-helm-toolchain](https://github.
 
 ## Steps
 
-Follow these two easy steps to create an IBM Cloud Schematics workspace and apply a Terraform execution plan. When you apply the template, a Kubernetes cluster is created, and a Java Spring application is deployed to it by using an IBM Cloud DevOps toolchain.
+Follow these two easy steps to create an IBM Cloud Schematics workspace and apply a Terraform execution plan. When you apply the plan, a Kubernetes cluster is created, and a Java Spring application is deployed to it by using an IBM Cloud DevOps toolchain.
 
 ### Step 1: Create an IBM Cloud Schematics workspace
 
