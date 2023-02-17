@@ -43,7 +43,7 @@ variable "public_vlan_num" {
 }
 
 variable "kube_version" {
-  default     = "4.5.18_openshift"
+  default     = "4.11_openshift"
   description = "Version of Kubernetes to apply to the new OpenShift cluster"
 }
 
