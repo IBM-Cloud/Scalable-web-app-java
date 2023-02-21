@@ -27,6 +27,16 @@ variable "datacenter" {
   description = "Zone from `ibmcloud ks zones --provider classic`"
 }
 
+variable "private_vlan_id" {
+  type        = string
+  description = "ID for private VLAN from `ibmcloud ks vlan ls --zone <ZONE>`"
+}
+
+variable "public_vlan_id" {
+  type        = string
+  description = "ID for public VLAN from `ibmcloud ks vlan ls --zone <ZONE>`"
+}
+
 variable "default_pool_size" {
   default     = "1"
   description = "Number of worker nodes for the new Kubernetes cluster"
